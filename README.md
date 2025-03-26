@@ -1,4 +1,4 @@
-1- abrir consola y hacer git clone 
+1- abrir consola y hacer git clone https://github.com/BrandonPzocik/matricesMultidimensionalesII.git
 #Como ejecutar archivos de Python
 1.Python python.py
 
