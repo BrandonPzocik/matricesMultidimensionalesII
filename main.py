@@ -14,7 +14,7 @@ while True:
         apellido = input("Apellido: ")
         dni = input("DNI: ")
         telefonos = input("Teléfonos (separados por comas): ").split(",") #El método .split(",")dividirá la cadena en una lista
-        tiene_hijos = input("¿Tiene hijos? (s/n): ").lower()
+        tiene_hijos = input("¿Tiene hijos? (s/n): ").lower() #pasa a minuscula la respuesta para luego compararla
         if tiene_hijos == "s":
             hijos = input("Hijos (separados por comas): ").split(",")
         else:
@@ -42,7 +42,7 @@ while True:
         if not encontrado:
             print("No se encontró ninguna persona con ese DNI.")
 
-    elif opcion == "4":
+    elif opcion == "4" or opcion == "salir":
         print("Saliendo del programa...")
         break
 
